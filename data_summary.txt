@@ -1,0 +1,71 @@
+=========================================
+DATASET INFO
+=========================================
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1000 entries, 0 to 999
+Data columns (total 13 columns):
+ #   Column       Non-Null Count  Dtype         
+---  ------       --------------  -----         
+ 0   #            1000 non-null   int64         
+ 1   Fecha        1000 non-null   datetime64[ns]
+ 2   Hora         1000 non-null   float64       
+ 3   Codigo       1000 non-null   int64         
+ 4   Ciudad       1000 non-null   object        
+ 5   Cantidad     1000 non-null   int64         
+ 6   Año          1000 non-null   int64         
+ 7   Mes          1000 non-null   int64         
+ 8   Dia          1000 non-null   int64         
+ 9   Descripcion  1000 non-null   object        
+ 10  Precio       1000 non-null   int64         
+ 11  Total        1000 non-null   int64         
+ 12  Nombre_Mes   1000 non-null   object        
+dtypes: datetime64[ns](1), float64(1), int64(8), object(3)
+memory usage: 101.7+ KB
+
+=========================================
+MISSING VALUES
+=========================================
+#              0
+Fecha          0
+Hora           0
+Codigo         0
+Ciudad         0
+Cantidad       0
+Año            0
+Mes            0
+Dia            0
+Descripcion    0
+Precio         0
+Total          0
+Nombre_Mes     0
+dtype: int64
+
+=========================================
+DESCRIPTIVE STATISTICS
+=========================================
+                  #  ... Nombre_Mes
+count   1000.000000  ...       1000
+unique          NaN  ...         12
+top             NaN  ...       Mayo
+freq            NaN  ...         93
+mean     500.500000  ...        NaN
+min        1.000000  ...        NaN
+25%      250.750000  ...        NaN
+50%      500.500000  ...        NaN
+75%      750.250000  ...        NaN
+max     1000.000000  ...        NaN
+std      288.819436  ...        NaN
+
+[11 rows x 13 columns]
+
+=========================================
+FIRST 5 ROWS
+=========================================
+   #      Fecha  ...    Total  Nombre_Mes
+0  1 2023-04-15  ...    35200       Abril
+1  2 2024-12-01  ...  1001620   Diciembre
+2  3 2023-08-19  ...   845371      Agosto
+3  4 2023-05-14  ...   105600        Mayo
+4  5 2024-08-26  ...  2536113      Agosto
+
+[5 rows x 13 columns]
